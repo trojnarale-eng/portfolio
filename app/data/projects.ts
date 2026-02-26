@@ -62,7 +62,7 @@ export const projects: Project[] = [
     description: 'Plany miejscowe  tworzy się w celu ustalenia porządku i zasad rozwoju na danym obszarze. Akta prawa miejscowego, który precyzyjnie określa, co i w jaki sposób można na danej działce zbudować, co ma na celu zapobieganie chaosowi urbanistycznemu i konfliktom między różnymi funkcjami w przestrzeni. Plan ten daje pewność co do przyszłości okolicy, chroniąc np. tereny zielone przed niepożądaną zabudową.',
     category: 'QGIS',
     imageUrl: '/images/struktura.jpg',
-    tags: ['GIS', 'plany miejscowe', 'APP']
+    tags: ['GIS', 'plany miejscowe', 'APP', 'SQL']
   },
   {
     id: 'zabka',
@@ -79,5 +79,13 @@ export const projects: Project[] = [
     category: 'Python',
     imageUrl: '/images/opady.jpg',
     tags: ['Python3', 'opady atmosferyczne', 'netCDF', 'dane satelitarne', 'skrypt']
+  },
+  {
+    id: 'wiatr',
+    title: 'Prędkość wiatru nad Europą',
+    description: 'Do wygenerowania obrazu przedstawiającego siłę wiatru nad Europą użyto produktu satelitarnego w formacie netCDF. Produkt ten zawierał informacje o prędkości wiatru na różnych poziomach. Obraz powstał przez napisanie kryptu w python3 i przetworzenie dostępnych danych.',
+    category: 'Python',
+    imageUrl: '/images/wiatr.jpg',
+    tags: ['Python3', 'prędkości wiatrów', 'netCDF', 'dane satelitarne', 'skrypt']
   }
 ];
