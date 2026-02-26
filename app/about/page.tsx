@@ -79,7 +79,7 @@ export default function About() {
             {/* Zainteresowania */}
             <h2 className="text-2xl font-semibold mb-4 text-black">Poza pracą</h2>
             <p className="text-gray-700 mb-6">
-              Po godzinach najczęściej można mnie spotkać z aparatem w ręku – gdzieś pomiędzy górami, ciekawą architekturą i kolejną podróżą. Lubię patrzeć na świat przez obiektyw i zauważać detale, które umykają innym. Uważam, że każdy dzień uczy nas czegoś nowego – pytanie tylko, co z tym zrobimy. W moim przypadku najlepszym dowodem jest to, że całą tę stronę zbudowałam sama. :)
+              Po godzinach najczęściej można mnie spotkać z aparatem w ręku – gdzieś pomiędzy górami, ciekawą architekturą i kolejną podróżą. Lubię patrzeć na świat przez obiektyw i zauważać detale, które umykają innym. Uważam, że każdy dzień uczy nas czegoś nowego – pytanie tylko, co z tym zrobimy. W moim przypadku najlepszym dowodem jest to, że całą tę stronę zbudowałam sama 😉
             </p>
           </div>
         </div>
