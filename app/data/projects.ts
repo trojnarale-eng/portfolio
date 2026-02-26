@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   title: string;
   description: string;
-  category: 'QGIS';
+  category: 'QGIS'| 'Python';
   imageUrl: string;
   tags?: string[];
 }
@@ -71,5 +71,13 @@ export const projects: Project[] = [
     category: 'QGIS',
     imageUrl: '/images/zabka.jpg',
     tags: ['GIS', 'usługi', 'dystans', 'dane', 'geokodowanie', 'interpolacja']
+  },
+  {
+    id: 'opady',
+    title: 'Opady atmosferyczne nad Europą',
+    description: 'Do wygenerowania obrazu użyto produktu satelitarnego w formacie netCDF. Produkt ten zawierał informacje o opadzie atmosferycznym. Obraz powstał przez napisanie kryptu w python3 i przetworzenie dostępnych danych.',
+    category: 'Python',
+    imageUrl: '/images/opady.jpg',
+    tags: ['Python3', 'opady atmosferyczne', 'netCDF', 'dane satelitarne', 'skrypt']
   }
 ];
