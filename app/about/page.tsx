@@ -59,6 +59,9 @@ export default function About() {
               <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">R</span>
               <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Canva</span>
               <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">GIMP</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Model Buider</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Qt Designer</span>
+              <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">VS Code</span>
             </div>
 
             {/* Co potrafię */}
@@ -70,13 +73,13 @@ export default function About() {
               <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Wektoryzacja planów miejscowych</span>
               <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Tworzenie narzędzi GIS</span>
               <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Geoportale gminne</span>
+              <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Modelowanie przestrzenne</span>
             </div>
 
             {/* Zainteresowania */}
             <h2 className="text-2xl font-semibold mb-4 text-black">Poza pracą</h2>
             <p className="text-gray-700 mb-6">
-              W wolnym czasie zajmuję się <strong>fotografią</strong>, uwielbiam <strong>podróże</strong> i fascynuje mnie <strong>architektura</strong>. 
-              Te pasje często łączę z moją pracą, dokumentując przestrzeń i zmiany w krajobrazie.
+              Po godzinach najczęściej można mnie spotkać z aparatem w ręku – gdzieś pomiędzy górami, ciekawą architekturą i kolejną podróżą. Lubię patrzeć na świat przez obiektyw i zauważać detale, które umykają innym. Uważam, że każdy dzień uczy nas czegoś nowego – pytanie tylko, co z tym zrobimy. W moim przypadku najlepszym dowodem jest to, że całą tę stronę zbudowałam sama. ;)
             </p>
           </div>
         </div>
