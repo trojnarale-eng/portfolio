@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
     id: 'bieszczady',
     title: 'Bieszczadzki Park Narodowy',
-    description: 'Jeden z 23 polskich parków narodowych położony w południowej części województwa podkarpackiego. Utworzony w 1973 roku. Jest czwartym co do wielkości parkiem narodowym położonym na terenie Polski. Od 2021 roku wpisany jest na światową listę dziedzistwa UNESCO.',
+    description: 'Jeden z 23 polskich parków narodowych położony w południowej części województwa podkarpackiego. Utworzony w 1973 roku. Jest czwartym co do wielkości parkiem narodowym położonym na terenie Polski. Od 2021 roku wpisany jest na światową listę dziedzictwa UNESCO.',
     category: 'QGIS',
     imageUrl: '/images/bieszczady.jpg',
     tags: ['GIS', 'hipsometria', 'cieniowanie', 'orto']
