@@ -87,5 +87,13 @@ export const projects: Project[] = [
     category: 'Python',
     imageUrl: '/images/wiatr.jpg',
     tags: ['Python3', 'prędkości wiatrów', 'netCDF', 'dane satelitarne', 'skrypt']
+  },
+  {
+    id: 'nachylenie',
+    title: 'Nachylenie terenu górskiego',
+    description: 'Mapa nachylenia terenu została opracowana na podstawie modelu wysokościowego i przedstawia stopień nachylenia powierzchni terenu. Pokazuje ona, jak strome są poszczególne fragmenty obszaru, co pozwala lepiej zrozumieć jego rzeźbę. Analiza nachylenia jest wykorzystywana m.in. w planowaniu przestrzennym, ponieważ strome stoki mogą ograniczać możliwość zabudowy. Mapa ta jest również przydatna w analizach środowiskowych, np. do oceny ryzyka erozji gleby lub spływu wód powierzchniowych. Dodatkowo może być stosowana w badaniach z zakresu geomorfologii do interpretacji form terenu i procesów rzeźbotwórczych.',
+    category: 'QGIS',
+    imageUrl: '/images/nachylenie.jpg',
+    tags: ['GIS', 'nachykenie terenu', 'NMT', 'dane satelitarne', '%']
   }
 ];
